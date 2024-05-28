@@ -5,6 +5,9 @@
     .container {
       max-width: 960px;
     }
+    .Join{
+      max-width: 960px;
+    }
   }
   
   @media screen and (max-width: 768px) {
@@ -14,6 +17,9 @@
   
     .logo img {
       height: 40px;
+    }
+    .Join{
+      max-width: 720px;
     }
   
     .navigation ul li a {
@@ -49,6 +55,9 @@
     .container {
       max-width: 540px;
     }
+    .Join{
+      max-width: 540px;
+    }
   
     .hero-content h1 {
       font-size: 1.8rem;
@@ -79,6 +88,9 @@
     .container {
       max-width: 420px;
     }
+    .Join{
+      max-width: 420px;
+    }
   
     .hero-content h1 {
       font-size: 1.5rem;
@@ -105,4 +117,11 @@
       font-size: 0.7rem;
     }
   }
+  @media(max-width:650px){
+    div#bottom-left-section, div#botttom-right-section, #card{
+      width:100%;
+      height:auto;
   
+    }
+   
+  }
